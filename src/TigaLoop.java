@@ -110,5 +110,7 @@ public class TigaLoop {
         System.out.println();
         System.out.println(" Sampai println    : " + jumlahPrintln + " kali");
 
+        // Menutup Scanner untuk melepaskan resource
+        input.close();
     }
 }
