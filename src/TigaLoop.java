@@ -25,5 +25,22 @@ public class TigaLoop {
         }
         System.out.println();
 
+
+        // Menampilkan deret menggunakan perulangan while
+        System.out.println("while       :");
+
+        // Membuat variabel penghitung j
+        int j = 1;
+
+        // Perulangan berjalan selama j kurang dari atau sama dengan n
+        while (j <= n) {
+            // Menampilkan nilai j
+            System.out.println(" " + j);
+
+            // Menambah nilai j setiap perulangan
+            j++;
+        }
+        System.out.println();
+
     }
 }
