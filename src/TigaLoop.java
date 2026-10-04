@@ -42,5 +42,22 @@ public class TigaLoop {
         }
         System.out.println();
 
+
+        // Menampilkan deret menggunakan perulangan do-while
+        System.out.println("do-While      :");
+
+        // Membuat variabel penghitung k
+        int k = 1;
+
+        // Perintah dijalankan minimal satu kali
+        do {
+            // Menampilkan nilai k
+            System.out.println(" " + k);
+
+            // Menambah nilai k
+            k++;
+        } while (k <= n);
+
+        System.out.println();
     }
 }
