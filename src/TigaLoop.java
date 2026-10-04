@@ -59,5 +59,26 @@ public class TigaLoop {
         } while (k <= n);
 
         System.out.println();
+
+
+        // Membuktikan perbedaan kondisi i < n dan i <= n
+
+        // Menghitung jumlah perulangan dengan kondisi kurang dari
+        int kurang = 0;
+        for (int i = 1; i < n; i++) {
+            kurang++;
+        }
+
+        // Menghitung jumlah perulangan dengan kondisi kurang dari atau sama dengan
+        int kurangSama = 0;
+        for (int i = 1; i <= n; i++) {
+            kurangSama++;
+        }
+
+        // Menampilkan hasil perhitungan
+        System.out.println("i < n berputar : " + kurang + " kali");
+        System.out.println("i <= n berputar : " + kurangSama + " kali");
+
+
     }
 }
