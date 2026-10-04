@@ -80,5 +80,35 @@ public class TigaLoop {
         System.out.println("i <= n berputar : " + kurangSama + " kali");
 
 
+        // Menyaring deret angka 1 sampai 10
+        // Angka genap dilewati dan perulangan berhenti saat i > 7
+        int jumlahPrintln = 0;
+
+        System.out.println("Disaring");
+
+        // Melakukan perulangan dari 1 sampai 10
+        for (int i = 1; i <= 10; i++) {
+
+            // Melewati angka genap
+            if (i % 2 == 0) {
+                continue;
+            }
+
+            // Menghentikan perulangan jika angka lebih dari 7
+            if (i > 7) {
+                break;
+            }
+
+            // Menampilkan angka yang lolos penyaringan
+            System.out.println(" " + i);
+
+            // Menghitung jumlah angka yang ditampilkan
+            jumlahPrintln++;
+        }
+
+        // Menampilkan jumlah angka yang berhasil dicetak
+        System.out.println();
+        System.out.println(" Sampai println    : " + jumlahPrintln + " kali");
+
     }
 }
